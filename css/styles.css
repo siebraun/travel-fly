@@ -294,6 +294,131 @@ nav .links hr {
     width: 0px;
   }
 }
+#black-nav {
+  max-width: 980px;
+  height: 60px;
+  margin: 20px auto 0px auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+}
+#black-nav p, #black-nav a {
+  font-family: "Gill Sans", sans-serif;
+  color: black;
+}
+#black-nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../img/logo-black.png);
+}
+#black-nav .logo p {
+  margin: auto;
+  font-size: 20px;
+}
+#black-nav .links {
+  width: 500px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+#black-nav .links a {
+  text-decoration: none;
+  size: 15px;
+  margin: auto;
+}
+#black-nav .links hr {
+  height: 21px;
+  width: 1px;
+  border-color: #79ADDC;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #about-nav .logo {
+    width: 0px;
+  }
+}
+.about {
+  max-width: 980px;
+  margin: 90px auto 0px auto;
+}
+.about .about-top-section h1 {
+  width: 171px;
+  border-bottom: black solid 2px;
+  font-size: 60px;
+  font-family: "Proxima";
+}
+.about .about-top-section p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  padding-bottom: 95px;
+}
+.about .about-bottom-section {
+  padding-bottom: 180px;
+}
+.about .about-bottom-section h3 {
+  font-family: "Proxima";
+  font-size: 40px;
+  width: 255px;
+  border-bottom: black solid 2px;
+}
+.about .about-bottom-section p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+.about .about-bottom-section .client {
+  max-width: 676px;
+  min-height: 150px;
+  display: flex;
+  margin-bottom: 38px;
+}
+.about .about-bottom-section .client .client1-img {
+  min-width: 260px;
+  height: 150px;
+  background-image: url(../../img/about-client-01.jpg);
+  background-size: cover;
+}
+.about .about-bottom-section .client .client2-img {
+  min-width: 260px;
+  height: 150px;
+  background-image: url(../../img/about-client-02.jpg);
+  background-size: cover;
+}
+.about .about-bottom-section .client .client-quote {
+  position: relative;
+  min-height: 50px;
+  width: 100%;
+  padding-left: 20px;
+}
+.about .about-bottom-section .client .client-quote p:last-of-type {
+  margin-bottom: 25px;
+}
+.about .about-bottom-section .client .client-quote .client-name {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-right: -30px;
+}
+.about .about-bottom-section .client .client-quote .client-name p {
+  font-family: "Proxima";
+  font-size: 20px;
+  color: #79ADDC;
+}
+
+@media only screen and (max-width: 1030px) {
+  .about {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: -450px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .client-name {
+    position: relative;
+    margin-bottom: -30px;
+  }
+}
 footer {
   height: 100px;
   max-width: 1280px;
